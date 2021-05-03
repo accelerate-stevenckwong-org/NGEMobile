@@ -9,7 +9,7 @@ Accelerate will connect to this repository to show the code commits here and lin
 ## Members
 - Andy (andy-stevenckwong)
 - Bharat (bharat-stevenckwong)
-- Claire (claire-stevenckwong)
+- Carol (carol-stevenckwong)
 - Diane (diane-stevenckwong)
 - Eddie (eddie-stevenckwong)
 
