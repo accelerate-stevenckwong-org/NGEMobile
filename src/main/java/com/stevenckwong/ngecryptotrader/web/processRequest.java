@@ -35,6 +35,7 @@ public class processRequest extends HttpServlet {
             throws ServletException, IOException {
         
         Date currentDate = new Date();
+        GetNewFeatures nf = new GetNewFeatures();
         
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
@@ -46,34 +47,14 @@ public class processRequest extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet processRequest at " + request.getContextPath() + "</h1>");
-            out.println(this.newContent());
+            out.println(nf.newContent());
             out.println("<br/><br/><a href='index.html'>Back</a>");
             out.println("</body>");
             out.println("</html>");
         }
     }
     
-    public String newContent() {
-        
-        String newFeatures = new String();
-        
-        newFeatures += "<h2>Here are the newest features of the solution</h2>";
-        
-        // ******** Add new features here...
-        // ******** Use this syntax: newFeatures += "[JIRA_ID] - [Some Text] <br/>";
-        newFeatures += "[JIRA_ID] - [Some Text] <br/>";
-        
-                
-        // ******** End of new features
-        
-        newFeatures += "<br/><h2>Existing Features</h2>";
-        
-        // ******** Move the last new features here 
-        
-        // ******** End of old features
-        
-        return newFeatures;
-    }
+
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
