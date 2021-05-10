@@ -27,7 +27,7 @@ public class GetNewFeatures {
         newFeatures += "<br/><h2>Existing Features</h2>";
         
         // ******** Move the last new features here 
-        
+        newFeatures += "<br/>An Old Feature<br/>";
         // ******** End of old features
         
         return newFeatures;
