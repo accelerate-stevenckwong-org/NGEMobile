@@ -19,7 +19,7 @@ public class GetNewFeatures {
         
         // ******** Add new features here...
         // ******** Use this syntax: newFeatures += "[JIRA_ID] - [Some Text] <br/>";
-        newFeatures += "[JIRA_ID] - [Some Text] <br/>";
+        newFeatures += "NCT-12 - Build Data Structure for User Profile <br/>";
         
                 
         // ******** End of new features
@@ -27,7 +27,7 @@ public class GetNewFeatures {
         newFeatures += "<br/><h2>Existing Features</h2>";
         
         // ******** Move the last new features here 
-        newFeatures += "<br/>An Old Feature 4<br/>";
+        newFeatures += "<br/>Old Features<br/>";
         // ******** End of old features
         
         return newFeatures;
