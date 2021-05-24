@@ -48,6 +48,6 @@ public class ProcessRequestTest {
         GetNewFeatures nf = new GetNewFeatures();
         String initialString = nf.newContent();
         assertTrue(initialString.contains("<h2>Existing Features</h2>"));
-        assertTrue(initialString.contains("Old Feature"));
+        //assertTrue(initialString.contains("Old Feature"));
     }
 }
