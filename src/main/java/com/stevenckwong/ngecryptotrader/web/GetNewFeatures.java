@@ -19,7 +19,7 @@ public class GetNewFeatures {
         
         // ******** Add new features here...
         // ******** Use this syntax: newFeatures += "[JIRA_ID] - [Some Text] <br/>";
-        newFeatures += "NCT-30 - Launch new crypto <br/>";
+        newFeatures += "NCT-4 - Integrate Payment Gateway <br/>";
         
                 
         // ******** End of new features
@@ -27,6 +27,7 @@ public class GetNewFeatures {
         newFeatures += "<br/><h2>Existing Features</h2>";
         
         // ******** Move the last new features here 
+        newFeatures += "NCT-30 - Launch new crypto <br/>";
         newFeatures += "NCT-10 - API for SignUp <br/>";
         newFeatures += "NCT-9 - Web UI for SignUp <br/>";
         newFeatures += "<br/>NCT-12 - Build Data Structure for User Profile<br/>";
