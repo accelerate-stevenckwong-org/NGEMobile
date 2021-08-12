@@ -19,7 +19,7 @@ public class GetNewFeatures {
         
         // ******** Add new features here...
         // ******** Use this syntax: newFeatures += "[JIRA_ID] - [Some Text] <br/>";
-        newFeatures += "NCT-32 - Bid on Crypto<br/>";
+        newFeatures += "NCT-32 - Bid on Crypto <br/>";
                
         // ******** End of new features
         
