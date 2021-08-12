@@ -19,13 +19,14 @@ public class GetNewFeatures {
         
         // ******** Add new features here...
         // ******** Use this syntax: newFeatures += "[JIRA_ID] - [Some Text] <br/>";
-        newFeatures += "NCT-5 - Mobile UI Upgrade<br/>";
+        newFeatures += "NCT-32 - Bid on Crypto<br/>";
                
         // ******** End of new features
         
         newFeatures += "<br/><h2>Existing Features</h2>";
         
         // ******** Move the last new features here 
+        newFeatures += "NCT-5 - Mobile UI Upgrade<br/>";
         newFeatures += "NCT-19 - New Item for Viettel<br/>";
         newFeatures += "NCT-11 - Business Logic for new User Profile<br/>";
         newFeatures += "NCT-16 - Downgrade to Free<br/>";
